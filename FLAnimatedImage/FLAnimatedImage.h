@@ -46,6 +46,8 @@ extern const NSTimeInterval kFLAnimatedImageDelayTimeIntervalMinimum;
 // After an initial loading time, depending on `frameCacheSize`, frames should be available immediately from the cache.
 - (UIImage *)imageLazilyCachedAtIndex:(NSUInteger)index;
 
+- (UIImage *)imageAtIndex:(NSUInteger)index;
+
 // Pass either a `UIImage` or an `FLAnimatedImage` and get back its size
 + (CGSize)sizeForImage:(id)image;
 
